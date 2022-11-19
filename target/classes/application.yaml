@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: whitegown
+    username: whitegown
+    url: jdbc:mysql://localhost:3306/whitegown
+
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
